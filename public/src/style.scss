@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+i {
+    font-size: 30px;
+    color: blue;
+}
+
+.login-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+
+.nav-bar-hover:hover {
+    background-color: rgb(149, 149, 149);
+    border-radius: 8px;
+}
+
+.card-img-top {
+    height: 300px;  
+    width: 100%; 
+    object-fit: contain;
+}
+
+.card-btn {
+    font-size: 12px;
+}
+
+.card-body, .card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.input-container {
+    width: 400px;
+}
+
+.error {
+    font-size: 13px;
+}
