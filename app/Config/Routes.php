@@ -15,7 +15,7 @@ $routes->post('add_member', 'Form::addMembers');
 $routes->post('members/update/(:num)', 'Form::updateMembers/$1');
 
 $routes->post('add_book', 'Form::addBooks');
-$routes->post('book/borrow', 'BooksController::borrowBook');
+$routes->post('book/borrow/', 'BooksController::borrowBook');
 $routes->post('book/update/(:num)', 'Form::updateBook/$1');
 
 

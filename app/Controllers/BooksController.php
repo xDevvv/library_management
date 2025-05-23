@@ -72,6 +72,7 @@ class BooksController extends BaseController
             );
 
             $borrowedBooksModel->insert($data);
+            
             return redirect()->to('/home')->with('confirm', 'Successfully Borrow!');
             
         } catch (\Exception $e) {
